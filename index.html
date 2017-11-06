@@ -5,7 +5,7 @@
 	<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 	<link href='color/Mundo Azul.ase' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	 <link href="main.css/main.css" rel="stylesheet" >
+	<link href="main.css/main.css" rel="stylesheet" >
 	<!-- not sure if the color palette is linked properly: here is the link for additional color scales https://color.adobe.com/explore/?filter=most-popular&time=month -->
 
 	 <meta name="viewport" content="width=device-width, 
@@ -47,7 +47,7 @@
 	</div>
 </nav>
 
-<!-- link to free photography - should we have the main page with rotating images of different destinations?: https://unsplash.com-->
+<!-- link to free photography - should we have the main page with rotating images of different destinations?: https://unsplash.com -->
 <div class="container">
 		<div class="content">
 			<h1> Where can your next trip take you?</h1>
@@ -56,9 +56,27 @@
 				<img src='https://images.unsplash.com/photo-1501547324995-ed6980cd3589?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'>
 		</div>
 
-
-	
-
+<!-- how to insert random link in JavaScript: http://www.javascriptkit.com/javatutors/random2.shtml -->
+<script type="text/JavaScript">
+	function randomlinks () {
+	var myrandom=Math.round (Math.random ()*2)
+	var link1="http://www.visitbergen.no"
+	var link2="https://www.nycgo.com/"
+	var link3="https://www.visitlondon.com/"
+	var link4="www.turismoroma.it/?lang=en"
+	if (myrandom==0)
+		window.location=link1
+	else if (myrandom==1)
+		window.location=link2
+	else if (myrandom==2)
+		window.location=link3
+	else if (myrandom==3)
+		window-location=link4
+}
+</script>
+<form>
+	<input type"button" value"Random Destination Generator" onClick"Random_3 ()">
+</form>
 	 </nav>
 	
 
