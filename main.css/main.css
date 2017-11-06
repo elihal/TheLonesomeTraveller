@@ -3,19 +3,34 @@ nav {
 	color: seashell;
 }
 
-nav.li {
-	color: seashell;
-}
-
-h1 {
+.jumbotron {
 	padding-top: 70px;
 	font-family: open sans;
 	font-size: 50px;
 	color: navy;
+	margin-bottom: 0;
+	background-image: url('mages/openroad.jpg');
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-img {
-	align-content: center;
+nav.li {
+	color: seashell;
 }
 
 
+.bg {
+	width: 100%;
+  	z-index: 0;
+  	background-size: cover;
+  	background-attachment: fixed; 
+
+}
+
+#randomdestination {
+
+}
+.btn {
+	background-color: aliceblue;
+	color: skyblue;
+}
