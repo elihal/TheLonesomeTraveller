@@ -1,23 +1,3 @@
-nav {
-	background-color: aliceblue;
-	color: seashell;
-}
-
-nav.li {
-	color: seashell;
-}
-
-h1 {
-	padding-top: 70px;
-	font-family: open sans;
-	font-size: 50px;
-	color: navy;
-}
-
-img {
-	align-content: center;
-}
-
 function randomlinks () {
 	var myrandom=Math.round (Math.random ()*)
 	var links=new array ()
