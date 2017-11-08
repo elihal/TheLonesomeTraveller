@@ -1,21 +1,44 @@
+body {
+	background-image: url("images/openroad.jpg");
+}
 nav {
 	background-color: aliceblue;
-	color: seashell;
+	color: white;
+}
+
+.question {
+	min-height: 600px;
+	background-image: url("images/openroad.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+	font-size: 50px;
+	color: white;
+}
+
+.info {
+	min-height: 600px;
+	background-color: white;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 nav.li {
-	color: seashell;
-}
-
-h1 {
-	padding-top: 70px;
-	font-family: open sans;
-	font-size: 50px;
-	color: navy;
-}
-
-img {
-	align-content: center;
+	color: white;
 }
 
 
+.bg {
+	width: 100%;
+  	z-index: 0;
+  	background-size: cover;
+  	background-attachment: fixed; 
+}
+
+#randomdestination {
+
+}
+.btn {
+	background-color: aliceblue;
+	color: skyblue;
+}
