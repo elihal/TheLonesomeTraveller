@@ -34,5 +34,17 @@ function randomlinks () {
 	width: 100%;
   	z-index: 0;
   	background-size: cover;
+  	
 
+}
+
+.hotspotHeader {
+	text-align: center;
+	color: rgba(200 0 0 1);
+	size: 50px; 
+	width: 100%; 
+	position: absolute; 
+	top: 200px;
+	letter-spacing:0.3em;
+	font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
 }
