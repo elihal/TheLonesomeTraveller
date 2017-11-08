@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+<header>
 <nav class="navbar navbar-incerse navbar-fixed-top" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
@@ -47,14 +47,15 @@
 		</div>
 	</div>
 </nav>
+</header>
 	
 
-<div class="question">
-	<div class='container'>
+<div class='container'>
+	<div id class="question">
 		<div class='row'>
 			<div class='col-sm-8'>
 				<img src='images/lonleyboy.jpg'>
-				<div class="txtNew" style="left: 196px; width: 336px; position: absolute; top: 416px;">
+				<div class="txtNew" style="left: 196px; width: 100%; position: absolute; top: 416px;">
 				<h1 class="font_0" syle="font-size:70px">
 					<span class="color_11">
 					<span style="letter-spacing:0.3em;">
@@ -79,10 +80,14 @@
 	</div>
 </div>
 
+<!-- how do I make the picture take the full space in the container? and How do I get the text in the second container? -->
 
-<div class="info">
+
+<div class='container'>
+	<div id class="info">
 	<div class="text-center">
-	<div class='container' class="strc1inlineContent" style="position: absolute; width: 931px; top: 0px; bottom: 0px; left: calc((100%-931px) * 0);">
+	<div class='container' class="strc1inlineContent" style="position: absolute; width: 100%; top: 0px; bottom: 0px; left: calc((100%-931px) * 0);">
+		<p>
 		<h6 class="txtNew" style="left: 179px; width: 741px; position: absolute; top: 80px;">
 			<span style="font-size:40px;">
 				<span style="font-family:wfont_e1c78c_f47090b253c846b19649efef5be27dac,wf_f47090b253c846b19649efef5,orig_montserrat_semibold;">
@@ -91,21 +96,24 @@
 				<span style="letter-spacing:0em;">...</span>
 			</span>
 		</h6>
+	</p>
 	</div>
 </div>
+</div>
+</div>
+
 
 <!-- link to free photography - should we have the main page with rotating images of different destinations?: https://unsplash.com -->
 
 <!--- just using this picture to see the layout, should we have a slideshow or a map? --> 
 				
 	<div div id="randomdestination" class="text-center">
-		<a class="btn btn.default" style="margin-top:30px;" href="https://earthroulette.com/random-cheap-flights-to-anywhere/"> Random Destination Generator</a> 
+		<a class="btn btn.default" style="margin-top:30px;" href="https://earthroulette.com/random-cheap-flights-to-anywhere/">Random Destination Generator</a> 
 	</div>
 	</div> 
 <!-- how to insert random link in JavaScript: http://www.javascriptkit.com/javatutors/random2.shtml -->
 <script type="text/JavaScript">
 	
 </script>
-</body>
 
-	<header> 
+</body>
