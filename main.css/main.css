@@ -3,16 +3,16 @@ nav {
 	color: seashell;
 }
 
-.jumbotron {
-	padding-top: 70px;
-	font-family: open sans;
-	font-size: 50px;
-	color: navy;
-	margin-bottom: 0;
-	background-image: url('mages/openroad.jpg');
+.question {
+	min-height: 600px;
+	background-image: url("images/openroad.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+	font-size: 50px;
+	color: white;
 }
+
 
 nav.li {
 	color: seashell;
@@ -24,7 +24,6 @@ nav.li {
   	z-index: 0;
   	background-size: cover;
   	background-attachment: fixed; 
-
 }
 
 #randomdestination {
