@@ -3,7 +3,7 @@ body {
 }
 nav {
 	background-color: aliceblue;
-	color: seashell;
+	color: white;
 }
 
 .question {
@@ -24,7 +24,7 @@ nav {
 }
 
 nav.li {
-	color: seashell;
+	color: white;
 }
 
 
