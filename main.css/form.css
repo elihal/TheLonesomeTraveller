@@ -1,17 +1,30 @@
-content {
-	background-image: url("images/whereto.jpg");
+.formbackground {
+	background-image: url("/Images/whereto.jpg");
 	background-size: cover;
 }
 
 form {
 	margin-left: 50px;
-	margin-top: 100px;
+	margin-top: 20px;
 	margin-bottom: 100px;
 	font-family: open sans;
 	font-size: 14px;
 	color: navy;
 }
 
+h1 {
+	padding-left: 50px;
+	padding-top: 150px;
+	font-family: open sans;
+	font-size: 22px;
+}
+
+p {
+	padding-left: 50px;
+	font-family: open sans;
+	color: navy;
+	font-size: 14px;
+}
 
 .navbar-header {
 	background-color: black;
@@ -31,12 +44,6 @@ form {
 	min-height: 600px;
 }
 
-.bg {
-	width: 100%;
-	z-index: 0;
-	background-size: cover;
-	
-}
 
 .mainHeader{
 	text-align: center;
