@@ -1,25 +1,47 @@
-.container{
-	background-image: url("..images/whereto.jpg");
+.dest_container {
+	background-image: url("../Images/mountains.jpg");
 	background-size: cover;
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
 	
 	font-family: open sans;
 	font-size: 50px;
-	color: navy;
+	color: rgb(9, 37, 81);
 	min-height: 150px;
 	padding-top:100px;
 	letter-spacing:0.3em;
+	text-align: center;
 }
 
 h2 {
 	text-align: center;
+	color: rgb(9, 37, 81);
 }
 
 
 p {
-	padding: 150px, 0, 150px,30px;
+	padding: 150px, 0, 150px,0;
+	font-family: open sans;
+	color: rgb(9, 37, 81);
+	font-size: 18px;
+	text-align: center;
+	letter-spacing:0.1em;
+}
+
+ul {
+	color: rgb(9, 37, 81);
+}
+
+.subtitle {
+	padding: 150px, 0, 150px,0;
+	font-family: open sans;
+	color: rgb(9, 37, 81);
+	font-size: 18px;
+	text-align: center;
 }
 
 .navbar-header {
@@ -69,30 +91,13 @@ p {
 
 }
 
-#social-buttons button {
+.social-button {
 	color: white;
-	}
+	margin:auto;
+  	display:block;
 
-.btn-twitter {
-	background-color: #00acee;
-	border-color: #009ad5;
-	}
-.btn-facebook {
-	background-color: #4868ac;
-	border-color: #314776;
-	}
+}
 
-.btn-pinterest {
-	background-color: #b62f26;
-	border-color: #b62f26;
-	}
-
-.jumbotron {
-	min-height: 600px;
-	background-image: url('images/fruit-and-veg.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	}
 
 .dest-image {
 	width:200px;
@@ -101,7 +106,9 @@ p {
 }
 
 .interest-button {
-	background-color: black;
+	background-color: rgb(9, 37, 81);
 	color: white;
+	margin:auto;
+  	display:block;
+  	margin-bottom: 50px;
 }
-
