@@ -19,7 +19,7 @@ h1 {
 	font-size: 50px;
 	color: navy;
 	min-height: 150px;
-	padding:150px, 0, 150px,30px;
+	padding-top:100px
 }
 
 p {
@@ -97,13 +97,15 @@ p {
 .dest-image {
 	width:200px;
 	height:200px;
-	shape-outside: circle();
 
 }
 
 .interest-button {
 	background-color: black;
 	color: white;
+}
+h2 {
+	text-align: center;
 }
 
 
