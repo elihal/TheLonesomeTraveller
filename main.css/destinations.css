@@ -1,16 +1,6 @@
-body {
-	background-image: url("images/openroad.jpg");
+.container{
+	background-image: url("..images/whereto.jpg");
 	background-size: cover;
-	margin: 150px, 0, 150px,30px;
-}
-.navbar-header {
-	background-color: black;
-	color: white;
-}
-
-.navbarBottom {
-	background-color: black;
-	color: white;
 }
 
 h1 {
@@ -22,16 +12,25 @@ h1 {
 	padding-top:100px
 }
 
+h2 {
+	text-align: center;
+}
+
+
 p {
 	padding: 150px, 0, 150px,30px;
 }
 
-.bg {
-	width: 100%;
-	z-index: 0;
-	background-size: cover;
-	
+.navbar-header {
+	background-color: black;
+	color: white;
 }
+
+.navbarBottom {
+	background-color: black;
+	color: white;
+}
+
 
 .mainHeader{
 	text-align: center;
@@ -104,8 +103,4 @@ p {
 	background-color: black;
 	color: white;
 }
-h2 {
-	text-align: center;
-}
-
 
