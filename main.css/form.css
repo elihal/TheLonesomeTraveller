@@ -30,25 +30,24 @@ p {
 	text-align: center;
 }
 
-.lonesome {
-	width: 200px;
-	position: absolute;
-	top: 0px;
-}
-.navbar-light {
-	background-color: black;
-	color: black;
-	align-content: center
-}
-
 .navbar-header {
 	background-color: black;
 	color: white;
 }
 
-.navbarBottom {
-	background-color: black;
+.navbar-light {
+	background-color: transparent;
 	color: white;
+	align-content: center;
+	border: transparent;
+	font-size: 50px; 
+}
+
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+
 }
 
 .submit-button {
@@ -58,4 +57,23 @@ p {
 
 .countryselect {
 	color: black;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: #3B5998;
+  size: 40px;
+
+}
+
+.fa-twitter {
+  background: transparent;
+  color: #55ACEE;
+  size: 40px;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: #125688;
+  size: 40px;
 }

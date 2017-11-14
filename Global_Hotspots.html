@@ -6,6 +6,7 @@
 	<link href='color/Mundo Azul.ase' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="main.css/global_hotspots.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
@@ -29,9 +30,10 @@
 				<li><a onClick="random_4 ()"> Random Destination Generator</a></li>
 				<li><a href="./Global_Hotspots.html">Global Hotspots</a></li>
 				<li><a href="./Find_Travel_Buddy.html">Find Travel Buddy</a></li>
+			</ul>
 		</div>
 	</div>
-</nav>
+	</nav>
 </header>
 	<content>
 		<div class="content">
@@ -48,11 +50,15 @@
 			</div>
 
 	</content>
-	<nav class="navbar navbar-inverse navbar-fixed-bottom navbar-light navbar-bg text-center">
-	 <a class="navbar-brand" href="http://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter </a>
-	 <a class="navbar-brand" href="http://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook </a>
-	 <a class="navbar-brand" href="http://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
-	</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-bottom navbar-light">
+	<div class="navbarBottom">
+		<center>
+  		<a href="http://www.twitter.com/" class="fa fa-twitter" aria-hidden="true"></a>
+ 		 <a href="http://www.facebook.com/" class="fa fa-facebook" aria-hidden="true"></i></a>
+ 		 <a href="http://www.instagram.com/" class="fa fa-instagram" aria-hidden="true"></i></a>
+ 		 </center>
+ 	</div>
+</nav>
 
 	<script>
 	function functionBerlin() {
@@ -76,6 +82,22 @@
     } 
    }
 
-	</script>
+
+	function random_4 () {
+		var myrandom=Math.round (Math.random () *2)
+		var link1="./destinations_newyork.html"
+		var link2="./destinations_berlin.html"
+		var link3="./destinations_havana.html"
+		var link4="./destinations_antigua.html"
+		if (myrandom==0)
+			window.location=link1
+		else if (myrandom==1)
+			window.location=link2
+		else if (myrandom==2)
+			window.location=link3
+		else if (myrandom==3)
+			window.location=link4
+	}
+</script>
 	
 </body>

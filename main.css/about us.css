@@ -2,21 +2,38 @@ body {
   background-image: url("../Images/anatoly-anikin-151848.jpg");
   background-size: cover;
   background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100%;
+  background-repeat: no-repeat;
+  min-height: 100%;
 }
 
 
+.aboutus {
+  font-family: open sans;
+  color: rgb(9, 37, 81);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
 h1 {
-  
   font-family: open sans;
   font-size: 50px;
   color: rgb(9, 37, 81);
   min-height: 150px;
-  padding-top:100px;
+  padding-top: 150px;
   letter-spacing:0.3em;
   text-align: center;
+  bottom:0px;
   }
+
+h1.mtm {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+small {
+  color: rgb(9, 37, 81);
+}
 
 
 .navbar-header {
@@ -31,66 +48,47 @@ h1 {
   border: transparent;
   font-size: 50px; 
 }
+
 .lonesome {
   width: 200px;
   position: absolute;
   top: 0px;
 }
 
-
-h2 {
-  padding-bottom: 100px;
-  font-family: open sans;
-  font-size: 50px;
-  min-height: 150px;
-  letter-spacing:0.3em;
-  text-align: center;
-  }
-}
-
-.aboutus {
-  padding: 150px, 0, 150px,0;
-  font-family: open sans;
-  color: rgb(9, 37, 81);
-  font-size: 18px;
-  text-align: center;
-  letter-spacing:0.1em;
-}
-
-
 img {
 	align-content: center;
 }
 
-.gabby {
-  width: 250px;
-  height: 250px;
-
-}
-.olwen {
-    width: 250px;
-    height: 250px;
-
-}
-
-
 .leigh
 { 
-    width: 250px;
-    height: 250px;
-}
-
-.elizabeth {
-      width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
 }
 
 .btmarg{
   margin-bottom: 100px;
 }
 
-#Meetteam
-{
-  padding-top: 2cm;
+div.row {
+  padding-bottom: 150px;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: #3B5998;
+  size: 40px;
+
+}
+
+.fa-twitter {
+  background: transparent;
+  color: #55ACEE;
+  size: 40px;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: #125688;
+  size: 40px;
 }
 

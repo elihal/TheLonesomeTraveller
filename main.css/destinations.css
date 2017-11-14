@@ -1,3 +1,22 @@
+.navbar-header {
+	background-color: black;
+	color: white;
+}
+
+.navbar-light {
+	background-color: transparent;
+	color: white;
+	align-content: center;
+	border: transparent;
+	font-size: 50px; 
+}
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+
+}
+
 .dest_container {
 	background-image: url("../Images/mountains.jpg");
 	background-size: cover;
@@ -32,11 +51,6 @@ p {
 	letter-spacing:0.1em;
 }
 
-.lonesome {
-	width: 200px;
-	position: absolute;
-	top: 0px;
-}
 
 ul {
 	color: rgb(9, 37, 81);
@@ -46,11 +60,7 @@ ol {
 	padding-left: 200px;
 	padding-right: 200px;
 }
-.navbar-light {
-	background-color: black;
-	color: black;
-	align-content: center
-}
+
 
 .subtitle {
 	padding: 150px, 0, 150px,0;
@@ -59,17 +69,6 @@ ol {
 	font-size: 18px;
 	text-align: center;
 }
-
-.navbar-header {
-	background-color: black;
-	color: white;
-}
-
-.navbarBottom {
-	background-color: black;
-	color: white;
-}
-
 
 .mainHeader{
 	text-align: center;
@@ -127,4 +126,23 @@ ol {
 	margin:auto;
   	display:block;
   	margin-bottom: 50px;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: #3B5998;
+  size: 40px;
+
+}
+
+.fa-twitter {
+  background: transparent;
+  color: #55ACEE;
+  size: 40px;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: #125688;
+  size: 40px;
 }
