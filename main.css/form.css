@@ -1,0 +1,46 @@
+body {
+	background-size: cover;
+	min-height: 100%;
+	background-image: url("../Images/lake.jpg");
+}
+
+form {
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	font-family: open sans;
+	font-size: 14px;
+	color: white;
+	letter-spacing:0.3em;
+}
+
+h1 {
+	padding-top: 100px;
+	font-family: open sans;
+	font-size: 22px;
+	color: rgb(9, 37, 81);
+	text-align: center;
+}
+
+p {
+	
+	font-family: open sans;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+.navbar-header {
+	background-color: black;
+	color: white;
+}
+
+.navbarBottom {
+	background-color: black;
+	color: white;
+}
+
+.submit-button {
+	background-color: white;
+	color: black;
+}
