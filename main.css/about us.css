@@ -19,11 +19,20 @@ h1 {
   }
 
 
+.navbar-header {
+  background-color: black;
+  color: white;
+}
+
 .navbar-light {
   background-color: black;
-  color: black;
+  color: white;
   align-content: center
 }
+.lonesome {
+  width: 200px;
+  position: absolute;
+  top: 0px;
 
 
 h2 {
@@ -60,11 +69,6 @@ img {
  
 }
 
-.lonesome {
-  width: 200px;
-  position: absolute;
-  top: 0px;
-}
 
 .leigh
 { 
