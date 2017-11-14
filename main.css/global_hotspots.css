@@ -73,4 +73,12 @@ p {
 	color: rgb(9, 37, 81);
 }
 
+.hotspot_sub {
+	padding: 20px,0;
+	text-align: center;
+	color: silver;
+	size: 30px;
+	letter-spacing:0.3em;
+	font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
+}
 

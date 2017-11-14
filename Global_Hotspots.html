@@ -39,12 +39,14 @@
 </header>
 	<content>
 			<div class="content">
-				<h1 class = "hotspotHeader"> Where in the world </br> is everyone meeting?</h1>
+				<h1 class="hotspotHeader"> Where in the world </br> is everyone meeting?</h1>
+				<p class="hotspot_sub"> Hover over different places on the map to find our favourite locations!</p>
 				<div class="content-centre">
 					<img class="bg" src='Images/worldmap.png' usemap="#hotspot">
 					<map name="hotspot">
 					<area shape="rect" coords="600 280 700 380" href="destinations_berlin.html" onmouseover="functionBerlin()">
 					<area shape="rect" coords="300 400 400 500" href="destinations_havana.html" onmouseover="functionHavana()">
+					<area shape="rect" coords="300 280 400 380" href="destinations_havana.html" onmouseover="functionNewYork()">
 				</map>
 				</div>
 			</div>
@@ -80,6 +82,13 @@
     var txt = confirm("Click OK to see our recommendations for Havana!");
     if (txt == true) {
         window.location="destinations_havana.html";
+    } 
+   }
+
+   function functionNewYork() {
+    var txt = confirm("Click OK to see our recommendations for New York!");
+    if (txt == true) {
+        window.location="destinations_newyork.html";
     } 
    }
 
