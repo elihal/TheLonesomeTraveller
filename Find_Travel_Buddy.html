@@ -40,13 +40,13 @@
     <h1> Find your travel buddy! </h1>
     <p>Enter your details and trip plans below, so we can match you with like-minded travellers <br>heading to the same countries as you</p>
     	First Name<br>
-        <input type="text" name="firstname" required>
+        <input class="countryselect" type="text" name="firstname" required>
         <br><br>
         Last Name<br>
-        <input type="text" name="lastname" required>
+        <input class="countryselect" type="text" name="lastname" required>
         <br><br>
         Age<br>
-        <Input type="number" name="age" min="16" max="99" required>
+        <Input class="countryselect" type="number" name="age" min="16" max="99" required>
         <br><br>
         Gender
         <br>
@@ -55,7 +55,7 @@
   <input type="radio" name="gender" value="other"> Other  
   <br><br>
   Email address<br>
-  <input type="email" name="email" required>
+  <input class="countryselect" type="email" name="email" required>
   <br><br>
         Destination country (hold down ctrl to select multiple)
         <br>       
@@ -312,10 +312,10 @@
               <br><br>
               Dates of travel<br>
               From<br>
-              <input type="date" name="arrivaldate" required>
+              <input class="countryselect" type="date" name="arrivaldate" required>
               <br>
               To<br>
-              <input type="date" name="departuredate" required>
+              <input class="countryselect" type="date" name="departuredate" required>
            <br><br>
 
 
@@ -342,7 +342,7 @@
           <li>Places you've already visited</li>
           <li>Any things you're particularly keen to do in the country/countries you are visiting</li>
         </ul>
-        <input type="text" name="bio" size=50 maxlength=4000 placeholder="Bio" required>
+        <input class="countryselect" type="text" name="bio" size=50 maxlength=4000 placeholder="Bio" required>
              <br><br>
               <input type="button" class="submit-button" name="Submit" value="Submit" onclick="myFunction()">
 </form>
