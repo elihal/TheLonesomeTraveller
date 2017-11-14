@@ -43,8 +43,8 @@
 				<div class="content-centre">
 					<img class="bg" src='Images/worldmap.png' usemap="#hotspot">
 					<map name="hotspot">
-					<area shape="rect" coords="600 280 700 380" href="destinations_berlin.html">
-					<area shape="rect" coords="300 400 400 500" href="destinations_havana.html" onmouseover="functionHavana">
+					<area shape="rect" coords="600 280 700 380" href="destinations_berlin.html" onmouseover="functionBerlin()">
+					<area shape="rect" coords="300 400 400 500" href="destinations_havana.html" onmouseover="functionHavana()">
 				</map>
 				</div>
 			</div>
@@ -68,16 +68,20 @@
 
 	</div>
 
-	<script src="javascript/jquery-3.2.1.min.js">
-	functionHavana() {
-    var a = confirm("Click OK to proceed to the Havana destinations page");
-    if (a == true) {
-    	window.open("exit.html", "Thanks for Visiting!");
-    }
-    
-    else {
-    	txt = "You pressed Cancel!";
-	}
+	<script>
+	function functionBerlin() {
+    var txt = confirm("Click OK to see our recommendations for Berlin!");
+    if (txt == true) {
+        window.location="destinations_berlin.html";
+    } 
+   }
+
+   function functionHavana() {
+    var txt = confirm("Click OK to see our recommendations for Havana!");
+    if (txt == true) {
+        window.location="destinations_havana.html";
+    } 
+   }
 
 </script>
 	
