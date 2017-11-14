@@ -39,6 +39,17 @@ img {
 	font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
 
 }
+.navbar-light {
+	background-color: black;
+	color: black;
+	align-content: center
+}
+
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
 
 .navbar-bg {
 	background-color: rgba(255,255,255,0);
