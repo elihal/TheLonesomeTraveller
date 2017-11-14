@@ -8,6 +8,11 @@
 	color: white;
 	align-content: center
 }
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
 
 .bg {
 	width: 100%;
@@ -33,11 +38,6 @@
 	text-align: center;
 }
 
-.lonesome {
-	width: 200px;
-	position: absolute;
-	top: 0px;
-}
 
 .btn {
 	background-color: black;
@@ -47,15 +47,20 @@
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+  background: transparent;
+  color: #3B5998;
+  size: 40px;
+
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+  background: transparent;
+  color: #55ACEE;
+  size: 40px;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+  background: transparent;
+  color: #125688;
+  size: 40px;
+}
