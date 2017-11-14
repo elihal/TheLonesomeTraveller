@@ -21,12 +21,9 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="./index.html">The Lonesome Traveller</a>
-			<!-- This link allows you to go back to the homepage. This toolbar should be included on all the HTML so that one can easily navigate between the sites -->
 		</div>
-
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<!-- insert different page links here -->
 				<li><a href="./About_Us.html">About Us</a></li>
 				<li><a href="./Destinations.html">Destinations</a></li>
 				<li><a href="https://earthroulette.com/random-cheap-flights-to-anywhere/"> Random Destination Generator</a></li>
@@ -46,13 +43,13 @@
 				<div class="content-centre">
 					<img class="bg" src='Images/worldmap.png' usemap="#hotspot">
 					<map name="hotspot">
-					    <area shape="rect" coords="500, 200, 600, 300" href="https://en.wikipedia.org/wiki/Barcelona">
-					    <area shape="rect" coords="250 300 350 380" href="https://en.wikipedia.org/wiki/Havana">
-					</map>
+					<area shape="rect" coords="600 280 700 380" href="destinations_berlin.html">
+					<area shape="rect" coords="300 400 400 500" href="destinations_havana.html" onmouseover="functionHavana">
+				</map>
 				</div>
-		</div>
+			</div>
 	
-		<p>Please select the random destination generator button below to take you to a random destination</p>
+	<p>Please select the random destination generator button below to take you to a random destination</p>
 
 	<div div id="randomdestination" class="text-center">
 		<a class="btn btn.default" href="https://earthroulette.com/random-cheap-flights-to-anywhere/">Random Destination Generator</a> 
@@ -61,10 +58,8 @@
 		<br>
 		<br>
 		<br>
-		<br>
-
+	</div>
 </content>
-
 	<nav class="navbar navbar-inverse navbar-fixed-bottom navbar-light navbar-bg text-center">
 	 <a class="navbar-brand" href="http://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter </a>
 	  <a class="navbar-brand" href="http://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook </a>
@@ -72,4 +67,18 @@
 	</nav>
 
 	</div>
+
+	<script src="javascript/jquery-3.2.1.min.js">
+	functionHavana() {
+    var a = confirm("Click OK to proceed to the Havana destinations page");
+    if (a == true) {
+    	window.open("exit.html", "Thanks for Visiting!");
+    }
+    
+    else {
+    	txt = "You pressed Cancel!";
+	}
+
+</script>
+	
 </body>

@@ -1,9 +1,9 @@
 .dest_container {
 	background-image: url("../Images/mountains.jpg");
 	background-size: cover;
-	height: 100%;
 	background-position: center;
     background-repeat: no-repeat;
+    min-height: 100%;
 }
 
 h1 {
@@ -34,6 +34,11 @@ p {
 
 ul {
 	color: rgb(9, 37, 81);
+}
+
+ol {
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 .subtitle {

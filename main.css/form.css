@@ -1,7 +1,7 @@
-.formbackground {
-	background-image: url("/Images/whereto.jpg");
+content {
+	background-image: url("../Images/lake.jpg");
 	background-size: cover;
-	
+	min-height: 100%;
 }
 
 form {
@@ -15,17 +15,19 @@ form {
 }
 
 h1 {
-	padding-left: 50px;
-	padding-top: 150px;
+	padding-top: 100px;
 	font-family: open sans;
 	font-size: 22px;
+	color: rgb(9, 37, 81);
+	text-align: center;
 }
 
 p {
-	padding-left: 50px;
+	
 	font-family: open sans;
 	color: navy;
 	font-size: 14px;
+	text-align: center;
 }
 
 .navbar-header {
@@ -38,52 +40,7 @@ p {
 	color: white;
 }
 
-.h1 {
-	padding-top: 70px;
-	font-family: open sans;
-	font-size: 50px;
-	color: navy;
-	min-height: 600px;
-}
-
-
-.mainHeader{
-	text-align: center;
-	color: rgba(255, 255, 255, 1);
-	size: 50px;
-	width: 100%;
-	position: absolute;
-	padding-top: 70px;
-	top: 10px;
-	letter-spacing: 0.3em;
-	font-family: sans-serif;
-}
-
-.ClickMe {
-	text-align: center;
-}
-
-.info {
-	min-height: 600px;
-	background-color: transparent;
-	background-size: cover;
-	background-attachment: fixed;
-}
-.txtNew {
-	font-family: normal normal normal 18px/1.1em raleway, sans-serif;
-	color: rgb(75 79 79);
-	text-align: center;
-}
-
-
-.btn {
-	background-color: black;
-	color: white;
-	padding-bottom: 300px;
-
-}
-
 .submit-button {
-	background-color: black;
+	background-color: rgb(9, 37, 81);
 	color: white;
 }
