@@ -4,9 +4,11 @@
 }
 
 .navbar-light {
-	background-color: black;
+	background-color: transparent;
 	color: white;
-	align-content: center
+	align-content: center;
+	border: transparent;
+	font-size: 50px; 
 }
 .lonesome {
 	width: 200px;
