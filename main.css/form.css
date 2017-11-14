@@ -35,19 +35,20 @@ p {
 	color: white;
 }
 
-.navbar-light {
-	background-color: transparent;
-	color: white;
-	align-content: center;
-	border: transparent;
-	font-size: 50px; 
-}
 
 .lonesome {
 	width: 200px;
 	position: absolute;
 	top: 0px;
 
+}
+
+.navbar-light {
+	background-color: transparent;
+	color: white;
+	align-content: center;
+	border: transparent;
+	font-size: 50px; 
 }
 
 .submit-button {
@@ -77,3 +78,5 @@ p {
   color: #125688;
   size: 40px;
 }
+
+
