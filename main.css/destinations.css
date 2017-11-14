@@ -32,6 +32,12 @@ p {
 	letter-spacing:0.1em;
 }
 
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
+
 ul {
 	color: rgb(9, 37, 81);
 }
@@ -39,6 +45,11 @@ ul {
 ol {
 	padding-left: 200px;
 	padding-right: 200px;
+}
+.navbar-light {
+	background-color: black;
+	color: black;
+	align-content: center
 }
 
 .subtitle {

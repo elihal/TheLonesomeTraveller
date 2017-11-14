@@ -30,6 +30,17 @@ p {
 	text-align: center;
 }
 
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
+.navbar-light {
+	background-color: black;
+	color: black;
+	align-content: center
+}
+
 .navbar-header {
 	background-color: black;
 	color: white;
