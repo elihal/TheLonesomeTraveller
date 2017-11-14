@@ -8,6 +8,11 @@
 	color: white;
 	align-content: center
 }
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
 
 .bg {
 	width: 100%;
@@ -33,11 +38,6 @@
 	text-align: center;
 }
 
-.lonesome {
-	width: 200px;
-	position: absolute;
-	top: 0px;
-}
 
 .btn {
 	background-color: black;
