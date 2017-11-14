@@ -57,6 +57,11 @@ body {
 	text-align: center;
 }
 
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
 
 .btn {
 	background-color: black;
