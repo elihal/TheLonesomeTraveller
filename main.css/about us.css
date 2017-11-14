@@ -17,6 +17,7 @@ nav.li {
 	color: seashell;
 }
 
+<<<<<<< HEAD
 h1 {
   
   font-family: open sans;
@@ -28,6 +29,13 @@ h1 {
   text-align: center;
   }
 
+=======
+.navbar-light {
+  background-color: black;
+  color: black;
+  align-content: center
+}
+>>>>>>> b7c8d407bf03a58dd3164fddb8462ad719d6fb54
 
 h2 {
   padding-bottom: 100px;
@@ -64,6 +72,12 @@ img {
     width: 250px;
     height: 250px;
  
+}
+
+.lonesome {
+  width: 200px;
+  position: absolute;
+  top: 0px;
 }
 
 .leigh

@@ -24,13 +24,13 @@ img {
   	background-size: cover;
   	padding-top: 50px;
   	height:100%;
-	background-color: black;
+	background-color: rgb(169, 198, 206);
 
   }
 
 .hotspotHeader {
 	text-align: center;
-	color: silver;
+	color: rgb(3, 1, 48);
 	size: 50px; 
 	width: 100%; 
 	position: absolute; 
@@ -38,6 +38,17 @@ img {
 	letter-spacing:0.3em;
 	font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
 
+}
+.navbar-light {
+	background-color: black;
+	color: black;
+	align-content: center
+}
+
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
 }
 
 .navbar-bg {
@@ -74,11 +85,13 @@ p {
 }
 
 .hotspot_sub {
-	padding: 20px,0;
 	text-align: center;
-	color: silver;
-	size: 30px;
+	color: rgb(3, 1, 48);
+	size: 50px; 
+	width: 100%; 
+	top: 200px;
 	letter-spacing:0.3em;
 	font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
+	position: absolute;
 }
 
