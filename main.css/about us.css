@@ -25,14 +25,17 @@ h1 {
 }
 
 .navbar-light {
-  background-color: black;
+  background-color: transparent;
   color: white;
-  align-content: center
+  align-content: center;
+  border: transparent;
+  font-size: 50px; 
 }
 .lonesome {
   width: 200px;
   position: absolute;
   top: 0px;
+}
 
 
 h2 {
@@ -62,11 +65,12 @@ img {
 .gabby {
   width: 250px;
   height: 250px;
+
 }
 .olwen {
     width: 250px;
     height: 250px;
- 
+
 }
 
 
@@ -74,12 +78,15 @@ img {
 { 
     width: 250px;
     height: 250px;
-
 }
 
 .elizabeth {
       width: 250px;
     height: 250px;
+}
+
+.btmarg{
+  margin-bottom: 100px;
 }
 
 #Meetteam
