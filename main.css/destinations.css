@@ -1,0 +1,119 @@
+.dest_container {
+	background-image: url("../Images/mountains.jpg");
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+h1 {
+	
+	font-family: open sans;
+	font-size: 50px;
+	color: rgb(9, 37, 81);
+	min-height: 150px;
+	padding-top:100px;
+	letter-spacing:0.3em;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: rgb(9, 37, 81);
+}
+
+
+p {
+	padding: 150px, 0, 150px,0;
+	font-family: open sans;
+	color: rgb(9, 37, 81);
+	font-size: 18px;
+	text-align: center;
+	letter-spacing:0.1em;
+}
+
+ul {
+	color: rgb(9, 37, 81);
+}
+
+ol {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.subtitle {
+	padding: 150px, 0, 150px,0;
+	font-family: open sans;
+	color: rgb(9, 37, 81);
+	font-size: 18px;
+	text-align: center;
+}
+
+.navbar-header {
+	background-color: black;
+	color: white;
+}
+
+.navbarBottom {
+	background-color: black;
+	color: white;
+}
+
+
+.mainHeader{
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	size: 50px;
+	width: 100%;
+	position: absolute;
+	padding-top: 70px;
+	top: 10px;
+	letter-spacing: 0.3em;
+	font-family: sans-serif;
+}
+
+.ClickMe {
+	text-align: center;
+}
+
+.info {
+	min-height: 600px;
+	background-color: transparent;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.txtNew {
+	font-family: normal normal normal 18px/1.1em raleway, sans-serif;
+	color: rgb(75 79 79);
+	text-align: center;
+}
+
+
+.btn {
+	background-color: black;
+	color: white;
+	margin-bottom: 100px;
+
+}
+
+.social-button {
+	color: white;
+	margin:auto;
+  	display:block;
+
+}
+
+
+.dest-image {
+	width:200px;
+	height:200px;
+
+}
+
+.interest-button {
+	background-color: rgb(9, 37, 81);
+	color: white;
+	margin:auto;
+  	display:block;
+  	margin-bottom: 50px;
+}
