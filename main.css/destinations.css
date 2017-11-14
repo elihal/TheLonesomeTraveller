@@ -17,6 +17,10 @@
 
 }
 
+ol {
+	padding-bottom: 350px;
+}
+
 .dest_container {
 	background-image: url("../Images/mountains.jpg");
 	background-size: cover;
