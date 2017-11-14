@@ -7,9 +7,14 @@ body {
 	color: white;
 }
 
-.navbarBottom {
-	background-color: black;
-	color: white;
+.navbar-light {
+	background-color: transparent;
+	color: black;
+	align-content: center
+}
+
+.navbar-brand {
+	text-align: center;
 }
 
 .h1 {
