@@ -1,3 +1,24 @@
+.navbar-header {
+	background-color: black;
+	color: white;
+}
+
+
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+
+}
+
+.navbar-light {
+	background-color: transparent;
+	color: white;
+	align-content: center;
+	border: transparent;
+	font-size: 50px; 
+}
+
 body {
 	background-size: cover;
 	min-height: 100%;
@@ -28,27 +49,6 @@ p {
 	color: white;
 	font-size: 14px;
 	text-align: center;
-}
-
-.navbar-header {
-	background-color: black;
-	color: white;
-}
-
-
-.lonesome {
-	width: 200px;
-	position: absolute;
-	top: 0px;
-
-}
-
-.navbar-light {
-	background-color: transparent;
-	color: white;
-	align-content: center;
-	border: transparent;
-	font-size: 50px; 
 }
 
 .submit-button {
